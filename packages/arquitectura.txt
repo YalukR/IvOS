@@ -1,0 +1,9 @@
+# IvOS - Paquetes para Arquitectura (Arch)
+# Prefijo [AUR] = no esta en repos oficiales, requiere AUR helper (yay/paru)
+freecad
+librecad
+blender
+qgis
+inkscape
+meshlab
+[AUR] qcad

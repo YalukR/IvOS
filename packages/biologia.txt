@@ -1,0 +1,13 @@
+# IvOS - Paquetes para Biologia / Biotecnologia (Arch)
+# Aviso: bioinformatica en Arch vive mucho en AUR, ojo con tiempos de compilacion
+r
+python-pandas
+python-numpy
+python-matplotlib
+python-pip
+[AUR] ncbi-blast+
+[AUR] samtools
+[AUR] bcftools
+[AUR] emboss
+[AUR] python-biopython
+[AUR] jupyter-notebook

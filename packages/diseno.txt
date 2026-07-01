@@ -1,0 +1,9 @@
+# IvOS - Paquetes para Diseno grafico / Multimedia (Arch)
+gimp
+inkscape
+krita
+blender
+audacity
+kdenlive
+darktable
+scribus

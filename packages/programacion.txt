@@ -1,0 +1,14 @@
+# IvOS - Paquetes para Programacion / Desarrollo (Arch)
+git
+base-devel
+python
+python-pip
+nodejs
+npm
+docker
+neovim
+vim
+tmux
+sqlite
+jdk-openjdk
+[AUR] vscodium-bin
