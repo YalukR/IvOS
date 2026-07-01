@@ -1,6 +1,34 @@
-work/
-out/
+# --- Build artifacts (por si más adelante se genera una ISO con live-build) ---
+chroot/
+cache/
+config/
+binary/
 *.iso
 *.img
+*.squashfs
+
+# --- Logs ---
 *.log
-.cache/
+
+# --- Descargas/paquetes temporales de prueba ---
+*.deb
+*.snap
+downloads/
+
+# --- Entornos y dependencias locales ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+node_modules/
+
+# --- Archivos del sistema/editor ---
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# --- Configuraciones locales sensibles ---
+*.env
+secrets/
