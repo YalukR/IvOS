@@ -1,13 +1,15 @@
-# IvOS - Paquetes para Biologia / Biotecnologia (Arch)
-# Aviso: bioinformatica en Arch vive mucho en AUR, ojo con tiempos de compilacion
-r
-python-pandas
-python-numpy
-python-matplotlib
-python-pip
-[AUR] ncbi-blast+
-[AUR] samtools
-[AUR] bcftools
-[AUR] emboss
-[AUR] python-biopython
-[AUR] jupyter-notebook
+# IvOS - Paquetes para Biologia / Biotecnologia (Ubuntu/apt + Flatpak)
+# Nota: la mayoria de estas herramientas SI estan en los repos de Ubuntu
+# (paquetes empacados originalmente por el equipo Debian Med), a diferencia
+# de Arch donde vivian casi todas en el AUR.
+r-base
+python3-pandas
+python3-numpy
+python3-matplotlib
+python3-pip
+ncbi-blast+
+samtools
+bcftools
+emboss
+python3-biopython
+jupyter-notebook
