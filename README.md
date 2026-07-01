@@ -1,6 +1,6 @@
 # IvOS
 
-**IvOS** es un instalador/post-install para Ubuntu LTS, pensado para la comunidad académica: estudiantes y profesores que necesitan un sistema listo para trabajar sin perder tiempo configurando herramientas desde cero.
+**IvOS** es una distribución de Linux basada en Ubuntu LTS + GNOME, pensada para la comunidad académica: estudiantes y profesores que necesitan un sistema listo para trabajar sin perder tiempo configurando herramientas desde cero.
 
 El nombre viene de mi propio nombre, Ivo — este proyecto nació como parte de mi portafolio personal, pero está construido con la intención de ser realmente usable, no solo una demo.
 
@@ -18,30 +18,33 @@ Ejemplos de lo que esto podría significar (en construcción):
 
 ## Base y filosofía
 
-IvOS toma **Ubuntu LTS** como base, priorizando estabilidad y compatibilidad de hardware sobre tener siempre lo último. La idea es que un profesor o estudiante pueda instalar y olvidarse — no lidiar con actualizaciones que rompan el sistema justo antes de una clase.
+IvOS toma **Ubuntu LTS** como base y **GNOME** como entorno de escritorio, priorizando estabilidad, consistencia visual y "cero necesidad de andarle moviendo" por encima de la personalización extrema. La idea es que un profesor o estudiante pueda instalar y olvidarse — no lidiar con actualizaciones que rompan el sistema justo antes de una clase, ni con configuraciones que tenga que ajustar a mano.
 
 Por defecto, IvOS evita Snap en favor de paquetes `.deb` estándar y/o Flatpak para software adicional, para mantener el sistema predecible y transparente.
 
 ## Estado del proyecto
 
-En desarrollo activo. Ahora mismo IvOS es principalmente un **conjunto de scripts de instalación/configuración** que corren sobre una instalación de Ubuntu LTS existente — no una ISO propia (todavía). Empaquetarlo como ISO instalable es una posibilidad a futuro, no una prioridad actual.
+En desarrollo activo. IvOS es un proyecto de portafolio con la ambición de convertirse en una distribución completa (ISO propia), construido de forma incremental. Ver [ROADMAP.md](docs/ROADMAP.md) para el plan completo por fases y en qué fase está el proyecto ahora mismo.
 
 ## Estructura del repositorio
 
 ```
 IvOS/
-├── scripts/        # Lógica del instalador y perfiles de usuario
-├── packages/        # Listas/definiciones de paquetes por perfil
-├── docs/             # Documentación del proyecto
+├── app/            # App gráfica (GTK4/libadwaita) de selección de perfil e instalación
+├── packages/        # Listas de paquetes por perfil académico
+├── iso/               # Configuración para generar la ISO propia (live-build)
+├── branding/           # Logo, wallpapers, tema, splash de arranque
+├── docs/
+│   └── ROADMAP.md        # Plan de desarrollo por fases
 ├── LICENSE
 └── README.md
 ```
 
-*(Esta estructura puede ir cambiando conforme avanza el proyecto.)*
+*(Esta estructura se irá llenando conforme avanza cada fase del roadmap.)*
 
 ## Uso
 
-> El proyecto está en desarrollo temprano. Esta sección se actualizará con instrucciones claras de instalación conforme el instalador tome forma.
+> El proyecto está en desarrollo temprano. Esta sección se actualizará con instrucciones claras de instalación conforme el instalador/distro tome forma.
 
 ## Contribuir
 
@@ -51,11 +54,11 @@ Este es principalmente un proyecto personal/de portafolio, pero si eres parte de
 
 Este proyecto está licenciado bajo **GPLv3**. Ver [LICENSE](LICENSE) para el texto completo.
 
-IvOS se apoya en el ecosistema de Ubuntu y sus paquetes, cada uno con su propia licencia. La licencia GPLv3 de este repositorio aplica al trabajo propio del proyecto: scripts, configuraciones, el instalador y el branding.
+IvOS se apoya en el ecosistema de Ubuntu/GNOME y sus paquetes, cada uno con su propia licencia. La licencia GPLv3 de este repositorio aplica al trabajo propio del proyecto: scripts, la app, configuraciones y branding.
 
 ## Aviso de marca
 
-IvOS está basado en Ubuntu. **No está afiliado ni respaldado oficialmente por Canonical Ltd. ni por el proyecto Ubuntu.**
+IvOS está basado en Ubuntu y GNOME. **No está afiliado ni respaldado oficialmente por Canonical Ltd., el proyecto Ubuntu, ni la Fundación GNOME.**
 
 ---
 
