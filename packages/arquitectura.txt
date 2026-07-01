@@ -1,9 +1,9 @@
-# IvOS - Paquetes para Arquitectura (Arch)
-# Prefijo [AUR] = no esta en repos oficiales, requiere AUR helper (yay/paru)
+# IvOS - Paquetes para Arquitectura (Ubuntu/apt + Flatpak)
+# Prefijo [FLATPAK] = se instala via flatpak/flathub, no esta en los repos de apt
 freecad
 librecad
 blender
 qgis
 inkscape
 meshlab
-[AUR] qcad
+[FLATPAK] org.qcad.QCAD

@@ -1,4 +1,4 @@
-# IvOS - Paquetes para Diseno grafico / Multimedia (Arch)
+# IvOS - Paquetes para Diseno grafico / Multimedia (Ubuntu/apt)
 gimp
 inkscape
 krita

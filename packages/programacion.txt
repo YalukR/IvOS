@@ -1,14 +1,14 @@
-# IvOS - Paquetes para Programacion / Desarrollo (Arch)
+# IvOS - Paquetes para Programacion / Desarrollo (Ubuntu/apt + Flatpak)
 git
-base-devel
-python
-python-pip
+build-essential
+python3
+python3-pip
 nodejs
 npm
-docker
+docker.io
 neovim
 vim
 tmux
-sqlite
-jdk-openjdk
-[AUR] vscodium-bin
+sqlite3
+default-jdk
+[FLATPAK] com.vscodium.codium
